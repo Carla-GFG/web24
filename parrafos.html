@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="parrafos" class="py-3">
+                    <h2 class="text-center">PÁRRAFOS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex recusandae provident assumenda saepe
+                        asperiores magni, sint quas. Temporibus quo cum quasi non, autem sint alias id suscipit, dicta,
+                        architecto sapiente.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex recusandae provident assumenda saepe
+                        asperiores magni, sint quas. Temporibus quo cum quasi non, autem sint alias id suscipit, dicta,
+                        architecto sapiente. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex recusandae
+                        provident assumenda saepe
+                        asperiores magni, sint quas. Temporibus quo cum quasi non, autem sint alias id suscipit, dicta,
+                        architecto sapiente.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex recusandae provident assumenda saepe
+                        asperiores magni, sint quas. Temporibus quo cum quasi non, autem sint alias id suscipit, dicta,
+                        architecto sapiente.</p>
+                    <p>Con la etiqueta <span class="etiqueta">p</span> hacemos párrafos con una línea en blanco entre
+                        ellos, y con la etiqueta <span class="etiqueta">br</span> hacemos salto de párrafo sin dejar
+                        espacio entre ellos</p>
+                    <p>Distintos encabezados:</p>
+                    <h1>Encabezado h1</h1>
+                    <h2>Encabezado h2</h2>
+                    <h3>Encabezado h3</h3>
+                    <h4>Encabezado h4</h4>
+                    <h5>Encabezado h5</h5>
+                    <h6>Encabezado h6</h6>
+                    <p>Los encabezados se realizan con las etiquetas <span class="etiqueta">h1</span>, <span
+                            class="etiqueta">h2</span>, <span class="etiqueta">h3</span>, <span
+                            class="etiqueta">h4</span>, <span class="etiqueta">h5</span> y <span
+                            class="etiqueta">h6</span></p><br>
+                    <h3>Negrita y cursiva</h3>
+                    <p>Para las palabras en <strong>negrita</strong> y <em>cursiva</em> usamos las etiquetas <span
+                            class="etiqueta">strong</span> y <span class="etiqueta">em</span> respectivamente</p>
+                    <p>En cuanto a los superíndices y los subíndeces, usamos las etiquetas <span
+                            class="etiqueta">sup</span> (x<sup>2</sup>) y <span class="etiqueta">sub</span>
+                        (x<sub>2</sub>).</p>
+                    <p>Para hacer una abreviatura se usa la etiqueta <span class="etiqueta">abbr</span>: <abbr
+                            title="Organización de las Naciones Unidas">O.N.U.</abbr></p>
+                    <p>Además, en esta práctica hemos usado las 2 etiquetas más relevantes. Una para realizar bloques,
+                        <span class="etiqueta">div</span>; Otra para realizar cajas inline, <span
+                            class="etiqueta">span</span>.</p>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Carla García</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
