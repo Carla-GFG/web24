@@ -325,3 +325,7 @@ audio {
 .centrar {
     text-align: center;
 }
+.centro {
+    display: block;
+    margin: 0 auto;
+}
