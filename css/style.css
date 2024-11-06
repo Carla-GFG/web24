@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: rgb(53, 53, 53)
 }
 
 * {
@@ -12,7 +11,7 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(255, 255, 255);
 }
 /* For mobile: */
 @media screen and (max-width: 1000px) {
@@ -103,7 +102,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px rgb(36, 36, 36);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
     border-radius: 10px;
 }
 nav ul{
@@ -125,16 +124,16 @@ nav li {
         font-size: 30px;
     }
     nav ul {
-        background-color: rgb(102, 18, 170);
+        background-color: rgb(167, 51, 15);
     }
 }
 
 nav li a {
-    color: rgb(250, 247, 247);
+    color: rgb(0, 0, 0);
 }
 
 nav li:hover {
-    background-color:  rgb(37, 6, 71);
+    background-color:  rgb(226, 145, 69);
 }
 
 .text-right{
@@ -158,7 +157,7 @@ a {
 }
 
 .bg-azul-o {
-    background-color: rgb(102, 18, 170);
+    background-color: rgb(167, 51, 15);
 }
 .bg-azul-c {
     background-color: rgb(255, 255, 255);
@@ -308,7 +307,7 @@ h1 {
     text-align: center;
 }
 .galeria {
-    width: 33.3%;
+    width: 45%;
     float: left;
 }
 .galeria {
